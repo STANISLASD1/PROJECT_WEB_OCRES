@@ -21,3 +21,15 @@ Les instructions sont à retrouver dans le pdf instruction.pdf.
 **Le non respect de ces instructions entraînera des pertes de points alors prenez le temps de tout lire et de poser des questions si vous ne comprenez pas**
 
 Pour rappel, la probabilité de recevoir une réponse à un mail envoyé quelques heures avant le rendu est très proche de 0.
+
+
+Notre projet sera une application sur les conditions de ski et les informations importante de la station de Val d'Isère. 
+
+Notre page sera composé de 6 widgets avec une API que nous devons créer 
+
+le premier widget ----> Météo 
+le deuxième widget-----> Conditions ski 
+le troisième widget----> Webcam 
+le quatrième widget -----> vidéo ski 
+le cinquième widget -----> (notre API) photo de la station 
+le sixième widget ---- > (logement ou loueur de ski)
