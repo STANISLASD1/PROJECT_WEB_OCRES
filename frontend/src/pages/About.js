@@ -8,12 +8,8 @@ const About = () => {
             <h1>
                 À propros 
             </h1>
-            <br>
-            Lorem 
-            </br>
-            <br>
-            Lorem
-            </br>
+            <br />
+            <p>information : Time to ski, confidentialité, politique, yt, twitter ... </p>
         </div>
     );
 };
