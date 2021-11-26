@@ -9,10 +9,10 @@ const Navigation = () => {
             <NavLink exact to="/">
                 <Logo />
             </NavLink>
-            <NavLink exact to="/">
+            <NavLink exact to="/" activeClassName = "nav1" >
                 Accueil
             </NavLink>
-            <NavLink exact to="/a-propos"> 
+            <NavLink exact to="/a-propos" activeClassName = "nav1"> 
                A Propos 
             </NavLink>
         </div>

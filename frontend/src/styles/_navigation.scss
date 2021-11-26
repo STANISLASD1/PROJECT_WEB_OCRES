@@ -8,4 +8,16 @@
       border-radius: 4px;
       position: relative;
     }
+    .nav1{
+      &::after{
+        content:'';
+        width :85px;
+        height: 5px;
+        background : black; 
+        position : absolute ; 
+        bottom :1px;
+        left : 50%;
+        transform: translateX(-50%);
+      }
+    }
   }
