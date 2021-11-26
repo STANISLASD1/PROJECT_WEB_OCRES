@@ -4,9 +4,9 @@ import { BrowserRouter as Router, Route, Routes} from "react-router-dom";
 //import { useState, useEffect } from 'react';
 
 
-import Footer from './Footer'
+import Footer from './components/Footer'
 
-import Main from './Main';
+import Main from './components/Main';
 
 import Home from "./pages/Home";
 import About from "./pages/About"; 
@@ -17,7 +17,7 @@ const App = () => {
     <Router>
       <Routes>
           <Route path ="/" exact element={<Home/>}/>
-          <Route path ="/a-propos" exact element ={<About/>} />
+          <Route path="/a-propos" exact element={<About/>}/>
       </Routes>
     </Router>
     
