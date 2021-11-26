@@ -22,8 +22,14 @@ Les instructions sont à retrouver dans le pdf instruction.pdf.
 
 Pour rappel, la probabilité de recevoir une réponse à un mail envoyé quelques heures avant le rendu est très proche de 0.
 
+Voici le lien de notre Trello pour notre organisation : 
+https://trello.com/projettechnoweb2
 
-Notre projet sera une application sur les conditions de ski et les informations importante de la station de Val d'Isère. 
+Voici le lien de notre Wireframe fait sur Figma : 
+
+https://www.figma.com/proto/kCufqinwVd4Txtoh5cS4Aj/techno-web-project-Val-d-is%C3%A8re?node-id=0%3A1
+
+Notre projet sera une application sur les conditions de ski et les informations importante de la station de Tignes 
 
 Notre page sera composé de 6 widgets avec une API que nous devons créer 
 
