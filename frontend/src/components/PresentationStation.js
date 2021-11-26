@@ -7,15 +7,14 @@ import Card from '@mui/material/Card';
 
 
 
-export default function webcam() {
+export default function PresentationStation() {
 
 
     return (
         <div>
-            <Card style={{maxWidth: "100vh"}}>
-                <CardContent>
-                    <h1>Live-Webcam</h1>
-                    <iframe src="https://webcams.meteonews.net/webcams/anim/640x480/9413.mp4"  frameborder="0" scrolling="YES" style={{width: "100vh", height:"35vh"}}> </iframe>
+            <Card >
+                <CardContent style={{maxHeight: "100em", maxWidth:"50em"}}>
+                    <iframe id="iframe_mod" src="https://www.france-montagnes.com/embed?station=730049&language=fr" width="600" height="450" frameborder="0" allowfullscreen></iframe>
                 </CardContent>
             </Card>
 

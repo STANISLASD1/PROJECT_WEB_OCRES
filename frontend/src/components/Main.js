@@ -7,6 +7,7 @@ import Video from './Video';
 import PlanPiste from './PlanPiste';
 import Webcam from './Webcam'
 import Photo from './Photo'
+import PresentationStation from './PresentationStation';
 
 export default function Main() {
 
@@ -21,6 +22,7 @@ export default function Main() {
 
                 </div>
                 <div>
+                    <PresentationStation />
                     <ConditionSki></ConditionSki>
 
                 </div>
