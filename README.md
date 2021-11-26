@@ -1,41 +1,22 @@
 # Projet de fin de semestre
+## Liens
 
-A lire impérativement avant de commencer quoi que ce soit, ce sont les règles que vous devrez appliquer tout au long du semestre:
+Vous trouverer ici notre **Trello** pour l'organisation :
+**[Trello](https://trello.com/projettechnoweb2)** (clic -publique)
 
-<p align="center">
- <a href="https://gitlab.com/Adrien_Kourganoff/instructions_web_ocres_ing4/-/blob/master/README.md">Règles pour le semestre</a>
-</p>
+Vous trouverer ici notre **Figma** utilisé pour le Wireframe :
+**[Figma](https://www.figma.com/proto/kCufqinwVd4Txtoh5cS4Aj/techno-web-project-Val-d-is%C3%A8re?node-id=0%3A1)** (publique)
 
-## Introduction
+- - - -
 
-Ce repo git contient deux repertoires. L'un concerne la partie backend et l'autre la partie frontend.
+## Notre site 
+Notre projet est une application sur les conditions de ski et les informations importante de la station de **Tignes**.
 
-Les deux repertoires ont été initialisé pour vous aider à démarrer le projet dans les meilleures conditions.
+Notre page se compose de 6 widgets avec une API que nous avons créé :
 
-Chacun de ces repertoires contient un README.md qui vous pouvez vous approprier. Nous vous encourageons à le faire en y mettant toute les informations nécessaires à la compréhension de votre projet
-
-## Instructions
-
-Les instructions sont à retrouver dans le pdf instruction.pdf.
-
-**Le non respect de ces instructions entraînera des pertes de points alors prenez le temps de tout lire et de poser des questions si vous ne comprenez pas**
-
-Pour rappel, la probabilité de recevoir une réponse à un mail envoyé quelques heures avant le rendu est très proche de 0.
-
-Voici le lien de notre Trello pour notre organisation : 
-https://trello.com/projettechnoweb2
-
-Voici le lien de notre Wireframe fait sur Figma : 
-
-https://www.figma.com/proto/kCufqinwVd4Txtoh5cS4Aj/techno-web-project-Val-d-is%C3%A8re?node-id=0%3A1
-
-Notre projet sera une application sur les conditions de ski et les informations importante de la station de Tignes 
-
-Notre page sera composé de 6 widgets avec une API que nous devons créer 
-
-le premier widget ----> Météo 
-le deuxième widget-----> Conditions ski 
-le troisième widget----> Webcam 
-le quatrième widget -----> vidéo ski 
-le cinquième widget -----> (notre API) photo de la station 
-le sixième widget ---- > (logement ou loueur de ski)
+* le premier widget ➡️ Météo
+* le deuxième widget ➡️ Conditions ski 
+* le troisième widget ➡️ Webcam 
+* le quatrième widget  ➡️ vidéo ski 
+* le cinquième widget  ➡️ (notre API) photo de la station 
+* le sixième widget  ➡️  (logement ou loueur de ski)
