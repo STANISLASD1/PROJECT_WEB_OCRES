@@ -1,4 +1,4 @@
-//import { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import * as React from 'react';
 
 import CardContent from '@mui/material/CardContent';
@@ -9,13 +9,19 @@ import Card from '@mui/material/Card';
 
 export default function PlanPiste() {
 
+    useEffect(() => {
+        const script = document.createElement('script');
+        script.src = "https://widget.tourisme-lorraine.fr/widgetneige.js";
+        script.async = true;
+        document.body.appendChild(script);
+      }, []);
 
     return (
         <div>
             <Card style={{minWidth: "50vh"}}>
                 <CardContent>
-                    Api plan des pistes 
-                    <iframe src="http://www.locatignes.com/medias/images/plan-pistes.jpg"  frameborder="0" scrolling="YES" style={{width: "50vh", height:"35vh"}}> </iframe>
+                    <div data-widgetneige="1518.84.66798"></div> 
+                    
                 </CardContent>
             </Card>
 
