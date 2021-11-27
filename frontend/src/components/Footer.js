@@ -22,32 +22,30 @@ export default function Footer() {
             <Card>
                 <CardContent>
                 <Box>
-      <h1 style={{ color: "green", 
-                   textAlign: "center", 
-                   marginTop: "-50px" }}>
+      <h2 style={{ color: "Black", textAlign: "center", marginTop: "-50px" }}>
         Information sur notre Site
-      </h1>
+      </h2>
       <Container>
         <Row>
            <Column>
-            <Heading>Times To Ski </Heading>
+            <Heading>Times To Ski</Heading>
             <FooterLink href="#">Condition/Politique</FooterLink>
             <FooterLink href="#">France</FooterLink>
             <FooterLink href="#">Tignes</FooterLink>
           </Column>
           <Column>
             <Heading>Contactez-nous</Heading>
-            <FooterLink href="#">TimeToSki@</FooterLink>
+            <FooterLink href="#">Messenger</FooterLink>
 
           </Column>
           <Column>
-            <Heading>Inscrpition Newletter</Heading>
-            <FooterLink href="#">TimeToSki@</FooterLink>
+            <Heading>Newletter</Heading>
+            <FooterLink href="#">S'inscrire</FooterLink>
           </Column>
          
           <Column>
             <Heading>Réseaux sociaux</Heading>
-            <FooterLink href="#">
+            <FooterLink href="https://www.facebook.com">
               <i className="fab fa-facebook-f">
                 <span style={{ marginLeft: "10px" }}>
                   Facebook
