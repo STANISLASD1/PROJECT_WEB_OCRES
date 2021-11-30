@@ -12,7 +12,7 @@ export default function Conditions() {
 
     return (
         <div>
-            <Card style={{minWidth: "100vh",minHeight: "95.6vh"}}>
+            <Card style={{minWidth: "40vw",minHeight: "89.3vh", marginTop:"40px"}}>
                  <CardContent>
                   Nous y trouverons l'API conditions de ski 
                  </CardContent>

@@ -16,22 +16,35 @@ export default function Main() {
         <>
         
             <div style={{ display: "flex", justifyContent: "space-around" }}>
-                <div style={{ display: "flex", flexDirection: "column" }}>
+                <div style={{ display: "flex", flexDirection: "column", }}>
+                    <div>
                     <Meteo></Meteo>
+                   </div>
+                   <div>
                     <Video></Video>
+                   </div>
+                   <div>
                     <PlanPiste></PlanPiste>
-
                 </div>
-                <div>
-                    <PresentationStation />
-                    <ConditionSki></ConditionSki>
-
+                </div>
+                <div >
+                    <div> 
+                        <PresentationStation />
+                    </div>
+                   <div>
+                       <ConditionSki></ConditionSki>
+                   </div>
                 </div>
 
             </div>
-            <div style={{ display: "flex", justifyContent: "center" }}>
-                <Webcam></Webcam>
-                 <Photo></Photo>
+            <div style={{ display: "flex", justifyContent: "center"}}>
+                <div>
+                    <Webcam></Webcam>
+                </div>
+                <div> 
+                    <Photo></Photo>
+                </div>
+                
             </div>
            
                

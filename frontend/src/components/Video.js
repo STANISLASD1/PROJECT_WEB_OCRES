@@ -12,10 +12,10 @@ export default function Video() {
 
     return (
         <div>
-            <Card style={{maxWidth: "55vh"}}>
+            <Card style={{maxWidth: "27vw",maxHeight: "55vh", marginTop: "10px"}}>
                 <CardContent>
-                    <p>APi vidéos</p>  
-                   <iframe  src="https://www.youtube-nocookie.com/embed/uGsGhPhGLDE?controls=0" title="Video Tigne" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" style={{width: "50vh", height:"50vh"}} ></iframe>
+                    <h1 style={{ color: "grey", textAlign: "center" }}>APi vidéos </h1>  
+                   <iframe  src="https://www.youtube-nocookie.com/embed/uGsGhPhGLDE?controls=0" title="Video Tigne" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" style={{width: "25.5vw", height:"45vh"}} ></iframe>
                 </CardContent>
             </Card>
 
