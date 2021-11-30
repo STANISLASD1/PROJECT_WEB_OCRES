@@ -8,12 +8,13 @@ import PlanPiste from './PlanPiste';
 import Webcam from './Webcam'
 import Photo from './Photo'
 import PresentationStation from './PresentationStation';
-
+import medium from "../img/neige.jpeg"; 
 export default function Main() {
 
 
     return (
         <>
+        
             <div style={{ display: "flex", justifyContent: "space-around" }}>
                 <div style={{ display: "flex", flexDirection: "column" }}>
                     <Meteo></Meteo>
@@ -30,10 +31,11 @@ export default function Main() {
             </div>
             <div style={{ display: "flex", justifyContent: "center" }}>
                 <Webcam></Webcam>
+                 <Photo></Photo>
             </div>
-            <div style={{ display: "flex", justifyContent: "center" }}>
-                <Photo></Photo>
-            </div>
+           
+               
+            
         </>
     );
 }
