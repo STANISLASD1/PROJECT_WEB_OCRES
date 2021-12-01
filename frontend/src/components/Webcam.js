@@ -15,7 +15,7 @@ export default function webcam() {
             <Card>
                 <CardContent>
                     <h1 style={{textAlign: "center" }}>Live-Webcam</h1>
-                    <iframe src="https://webcams.meteonews.net/webcams/anim/640x480/9413.mp4"  frameborder="0" scrolling="no" style={{width: "42vw", height:"35vh"}}> </iframe>
+                    <iframe src="https://webcams.meteonews.net/webcams/anim/640x480/9413.mp4"  frameborder="0" scrolling="no" style={{width: "75vh", height:"50vh"}}> </iframe>
                 </CardContent>
             </Card>
 

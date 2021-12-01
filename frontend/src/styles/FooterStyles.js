@@ -2,7 +2,7 @@ import styled from 'styled-components';
    
 export const Box = styled.div`
   padding: 80px 60px;
-  background: #CECECE;
+  background: #4DAFD4;
   width: 100%;
   
   @media (max-width: 100px) {
@@ -16,8 +16,7 @@ export const Container = styled.div`
     justify-content: center;
     max-width: 1000px;
     margin: auto;
-    /* background: red; */
-`
+`;
    
 export const Column = styled.div`
   display: flex;
@@ -37,7 +36,7 @@ export const Row = styled.div`
 `;
    
 export const FooterLink = styled.a`
-  color: #F0FFFF;
+  color: black;
   margin-bottom: 20px;
   font-size: 12px;
   text-decoration: none;

@@ -29,18 +29,18 @@ export default function Footer() {
         <Row>
            <Column>
             <Heading>Times To Ski</Heading>
-            <FooterLink href="#">Condition/Politique</FooterLink>
-            <FooterLink href="#">France</FooterLink>
-            <FooterLink href="#">Tignes</FooterLink>
+            <FooterLink href="../CGU.pdf">Condition/Politique</FooterLink>
+            <FooterLink href="https://www.france.fr/fr">France</FooterLink>
+            <FooterLink href="https://www.tignes.net">Tignes</FooterLink>
           </Column>
           <Column>
             <Heading>Contactez-nous</Heading>
-            <FooterLink href="#">Messenger</FooterLink>
+            <FooterLink href="https://www.messenger.com">Messenger</FooterLink>
 
           </Column>
           <Column>
             <Heading>Newletter</Heading>
-            <FooterLink href="#">S'inscrire</FooterLink>
+            <FooterLink href="https://reactnewsletter.com">S'inscrire</FooterLink>
           </Column>
          
           <Column>
@@ -52,21 +52,7 @@ export default function Footer() {
                 </span>
               </i>
             </FooterLink>
-            <FooterLink href="#">
-              <i className="fab fa-instagram">
-                <span style={{ marginLeft: "10px" }}>
-                  Instagram
-                </span>
-              </i>
-            </FooterLink>
-            <FooterLink href="#">
-              <i className="fab fa-twitter">
-                <span style={{ marginLeft: "10px" }}>
-                  Twitter
-                </span>
-              </i>
-            </FooterLink>
-            <FooterLink href="#">
+            <FooterLink href="https://www.youtube.com/channel/UCaicYnKn4LZs2xpfibm7FTw">
               <i className="fab fa-youtube">
                 <span style={{ marginLeft: "10px" }}>
                   Youtube
