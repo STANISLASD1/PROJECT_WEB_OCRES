@@ -9,11 +9,11 @@ const Navigation = () => {
             <NavLink exact to="/">
                 <Logo />
             </NavLink>
-            <NavLink exact to="/" activeClassName = "nav1" >
-                Accueil
-            </NavLink>
             <NavLink exact to="/a-propos" activeClassName = "nav1"> 
-               A Propos 
+               Accueil 
+            </NavLink>
+            <NavLink exact to="/" activeClassName = "nav1" >
+                Dashboard
             </NavLink>
         </div>
     );
