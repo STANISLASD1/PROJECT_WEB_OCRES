@@ -9,46 +9,45 @@ import Webcam from './Webcam'
 import Photo from './Photo'
 import PresentationStation from './PresentationStation';
 import medium from "../img/neige.jpeg"; 
+
 export default function Main() {
 
 
     return (
         <>
-        
-            <div style={{ display: "flex", justifyContent: "space-around" }}>
-                <div style={{ display: "flex", flexDirection: "column", }}>
-                    <div>
+        <div className="container">
+            
+            <div className="row">
+                <div className="col-md-3">
                     <Meteo></Meteo>
-                   </div>
-                   <div>
+                </div>
+                <div className="col-md-6">
                     <Video></Video>
-                   </div>
-                   <div>
+                </div>
+                <div className="col-md-3">
                     <PlanPiste></PlanPiste>
                 </div>
-                </div>
-                <div >
-                    <div> 
-                        <PresentationStation />
-                    </div>
-                   <div>
-                       <ConditionSki></ConditionSki>
-                   </div>
-                </div>
-
             </div>
-            <div style={{ display: "flex", justifyContent: "center"}}>
-                <div>
+            <br />
+            <div className="row">
+                <div className="col-md-7"> 
+                    <PresentationStation />
+                </div>
+                <div className="col-md-5">
+                    <ConditionSki></ConditionSki>
+                </div>
+            </div>
+            <br />
+            <div className="row">
+                <div className="col-md-6">
                     <Webcam></Webcam>
                 </div>
-                <div> 
+                <div className="col-md-6"> 
                     <Photo></Photo>
                 </div>
-                
             </div>
-           
-               
-            
+            <br />
+        </div>    
         </>
     );
 }

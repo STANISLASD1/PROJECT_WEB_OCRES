@@ -1,15 +1,18 @@
 import React from 'react';
+import Footer from '../components/Footer';
 import Navigation from "../components/Navigation";
 // import Button from '@mui/material/button';
+
 const About = () => {
     return (
         <div className="about">
             <Navigation />
-            <h1>A propos </h1>
-              
-            
+            <h1>Bienvenue à Tigne </h1>
             <br />
-            <p>information : Time to ski, confidentialité, politique, yt, twitter ... </p>
+            <p>Cette application va simplifier votre sejour à la montagne</p>
+            <h1>[Mettre une video de fond stylé]</h1>
+            <br/><br/><br/><br/><br/><br/><br/><br/>
+            <Footer></Footer>
         </div>
     );
 };

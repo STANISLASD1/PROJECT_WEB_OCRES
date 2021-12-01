@@ -12,10 +12,10 @@ export default function webcam() {
 
     return (
         <div>
-            <Card style={{maxWidth: "45vw",maxHeight:"50vh", marginRight:"10px", marginTop:"10px"}}>
+            <Card>
                 <CardContent>
-                    <h1>Live-Webcam</h1>
-                    <iframe src="https://webcams.meteonews.net/webcams/anim/640x480/9413.mp4"  frameborder="0" scrolling="YES" style={{width: "42vw", height:"35vh"}}> </iframe>
+                    <h1 style={{textAlign: "center" }}>Live-Webcam</h1>
+                    <iframe src="https://webcams.meteonews.net/webcams/anim/640x480/9413.mp4"  frameborder="0" scrolling="no" style={{width: "42vw", height:"35vh"}}> </iframe>
                 </CardContent>
             </Card>
 

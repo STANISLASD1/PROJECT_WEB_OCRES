@@ -11,10 +11,10 @@ export default function Conditions() {
 
 
     return (
-        <div>
-            <Card style={{minWidth: "40vw",minHeight: "89.3vh", marginTop:"40px"}}>
+        <div >
+            <Card >
                  <CardContent>
-                  Nous y trouverons l'API conditions de ski 
+                    <iframe id="o61304" src="https://www.skiinfo.fr/widget/snow?resort=600&color=w#localhost:3000" style={{width: "25vw", height:"45vh"}} border="0" frameborder="0" scrolling="yes"></iframe>
                  </CardContent>
             </Card>
 

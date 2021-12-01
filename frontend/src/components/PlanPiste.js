@@ -18,10 +18,9 @@ export default function PlanPiste() {
 
     return (
         <div>
-            <Card style={{maxWidth: "27vw",maxHeight: "55vh", marginTop:"10px"}}>
+            <Card>
                 <CardContent>
                     <div data-widgetneige="1518.84.66798"></div> 
-                    
                 </CardContent>
             </Card>
 
