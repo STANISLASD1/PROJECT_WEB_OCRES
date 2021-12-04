@@ -6,16 +6,16 @@ import Logo from './Logo';
 const Navigation = () => {
     return (
         <div className="navigation">
-            <NavLink exact to="/" activeClassName = "nav1">
+            <NavLink exact to="/" activeClassName = "nav1" className="bouton">
                 <Logo />
             </NavLink>
-            <NavLink exact to="/" activeClassName = "nav1"> 
+            <NavLink exact to="/" activeClassName = "nav1" className="bouton"> 
                Accueil 
             </NavLink>
-            <NavLink exact to="/dashboard" activeClassName = "nav1" >
+            <NavLink exact to="/dashboard" activeClassName = "nav1" className="bouton">
                 Dashboard
             </NavLink>
-            <NavLink exact to="/controle" activeClassName = "nav1" >
+            <NavLink exact to="/controle" activeClassName = "nav1" className="bouton">
                 Controle API
             </NavLink>
         </div>
