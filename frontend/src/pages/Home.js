@@ -6,7 +6,7 @@ import HomeScreen from '../components/HomeScreen';
 const Home = () => {
     return(
         <div className="home">
-         <Navigation />
+            <Navigation />
             <HomeScreen />
             <Footer />
         </div>

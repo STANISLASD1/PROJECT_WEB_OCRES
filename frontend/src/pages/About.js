@@ -13,9 +13,9 @@ const About = () => {
         <br/>
         <br/>
 
-        <Main></Main>
+        <Main />
         <br/>
-        <Footer></Footer>
+        <Footer />
 
         </div>
     );

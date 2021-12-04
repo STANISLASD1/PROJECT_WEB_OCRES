@@ -29,6 +29,7 @@ export default function Footer() {
         <Row>
            <Column>
             <Heading>Times To Ski</Heading>
+            <FooterLink href="#">Accueil</FooterLink>
             <FooterLink href="../CGU.pdf">Condition/Politique</FooterLink>
             <FooterLink href="https://www.france.fr/fr">France</FooterLink>
             <FooterLink href="https://www.tignes.net">Tignes</FooterLink>
