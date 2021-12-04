@@ -1,18 +1,16 @@
 import React from 'react';
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
-import HomeScreen from '../components/HomeScreen';
 
-const Home = () => {
+const Controle = () => {
     return(
-        <div className="home">
-         <Navigation />
-            <HomeScreen />
+        <div className="controle">
+            <Navigation />
+            <p>BLABLABALBALABLA</p>
             <Footer />
         </div>
-  
 
     );
 };
 
-export default Home;
+export default Controle;
