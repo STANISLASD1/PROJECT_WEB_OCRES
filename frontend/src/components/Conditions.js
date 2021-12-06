@@ -14,7 +14,7 @@ export default function Conditions() {
         <div >
             <Card >
                  <CardContent>
-                    <iframe id="o61304" src="https://www.skiinfo.fr/widget/snow?resort=600&color=w#localhost:3000" style={{width: "25vw", height:"45vh"}} border="0" frameborder="0" scrolling="yes"></iframe>
+                    <iframe id="o61304" src="https://www.skiinfo.fr/widget/snow?resort=600&color=w#localhost:3000" style={{width: "25vw", height:"50vh"}} border="0" frameborder="0" scrolling="yes"></iframe>
                  </CardContent>
             </Card>
 

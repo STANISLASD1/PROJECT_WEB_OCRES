@@ -9,41 +9,45 @@ import Webcam from './Webcam'
 import Photo from './Photo'
 import PresentationStation from './PresentationStation';
 import medium from "../img/neige.jpeg"; 
+import Graphique from './Graphique';
 
 export default function Main() {
 
 
     return (
         <>
-        <div className="container">
+        <div className="container justify-content-center">
             
             <div className="row">
                 <div className="col-md-3">
-                    <Meteo></Meteo>
+                    <Meteo />
                 </div>
                 <div className="col-md-6">
-                    <Video></Video>
+                    <Video />
                 </div>
                 <div className="col-md-3">
-                    <PlanPiste></PlanPiste>
+                    <ConditionSki />
                 </div>
             </div>
             <br />
-            <div className="row">
+            <div className="row justify-content-center">
                 <div className="col-md-7"> 
                     <PresentationStation />
                 </div>
-                <div className="col-md-5">
-                    <ConditionSki></ConditionSki>
+            </div>
+            <br />
+            <div className="row justify-content-center">
+                <div className="col-md-7">
+                    <Graphique />
                 </div>
             </div>
             <br />
             <div className="row">
                 <div className="col-md-6">
-                    <Webcam></Webcam>
+                    <Webcam />
                 </div>
                 <div className="col-md-6"> 
-                    <Photo></Photo>
+                    <Photo />
                 </div>
             </div>
             <br />
