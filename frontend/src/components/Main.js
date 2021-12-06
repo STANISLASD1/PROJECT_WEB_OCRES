@@ -4,11 +4,9 @@ import * as React from 'react';
 import Meteo from './Meteo';
 import ConditionSki from './Conditions';
 import Video from './Video';
-import PlanPiste from './PlanPiste';
 import Webcam from './Webcam'
 import Photo from './Photo'
 import PresentationStation from './PresentationStation';
-import medium from "../img/neige.jpeg"; 
 import Graphique from './Graphique';
 
 export default function Main() {

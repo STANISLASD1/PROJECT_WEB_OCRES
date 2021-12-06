@@ -1,12 +1,15 @@
 import React from 'react';
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
+import Formulaire from '../components/Formulaire';
 
 const Controle = () => {
     return(
         <div className="controle">
             <Navigation />
-            <p>BLABLABALBALABLA</p>
+            <br/>
+            <Formulaire />
+            <br/>
             <Footer />
         </div>
 
