@@ -2,7 +2,7 @@ const { json } = require('express');
 var express = require('express');
 var router = express.Router();
 
-const Post = require('../models/user.model');
+const Post = require('../models/user.model.js');
 
 
 /* GET photos listing. */

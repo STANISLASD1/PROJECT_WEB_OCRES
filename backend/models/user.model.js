@@ -2,10 +2,12 @@ const mongoose = require('mongoose');
 
 const schema = mongoose.Schema({
     name: {
-      type: String
+      type: String,
+      required: true
     },
     picture: {
-      type: String
+      type: String,
+      required: true
     }
   });
 
