@@ -1,9 +1,10 @@
 const mongoose = require("mongoose");
+
 mongoose
-    .connect("mongodb+srv://stanislas:Emeraude01@cluster0.vpays.mongodb.net/test",
+    .connect("mongodb+srv://stanislas:Stanislas@cluster0.o9eno.mongodb.net/Project1?retryWrites=true&w=majority",
 
         {
-            useNewUrlParser: true,  
+            //useNewUrlParse :true,  
             //useUnifieldTopology: true,
             //useCreateIndex: true,
             //useFindAndModify: false,

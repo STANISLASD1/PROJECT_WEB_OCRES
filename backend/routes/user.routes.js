@@ -3,9 +3,20 @@
 //var router = express.Router();
 
 const router = require('express').Router();
-const authController= require('../controllers/auth.controller'); 
-router.post("/resgister", authController.signUp);
-module.exports= router;
+
+const multer = require('multer');
+const upload = multer();
+
+//upload
+const uploadController = require('../controllers/upload.controller');
+router.post("/upload", upload.single("file"), uploadController.uploadProfil);
+
+module.exports = router;
+
+
+
+
+
 
 /* GET users listing. */
 //router.get('/', function(req, res, next) {
