@@ -19,7 +19,7 @@ export default function Formulaire() {
                     <div className="col-md-6 carte">
                         <h3>Ajouter des photos</h3>
                         <br/>
-                        <form>
+                        <form action="/upload" method="POST">
                             <input type="file" />
                             <input type="submit" value="Enregistrer" />
                         </form>
@@ -27,7 +27,7 @@ export default function Formulaire() {
                     <div className="col-md-6 carte">
                         <h3>Supprimer des photos</h3>
                         <br/>
-                        <form>
+                        <form action="/delete" method="POST">
                             <p>[Tableau photos]</p>
                             <label>selectionner un fichier</label>
                             <input type="submit" value="Supprimer" />

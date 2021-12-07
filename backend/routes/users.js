@@ -1,9 +1,44 @@
 const { json } = require('express');
 var express = require('express');
 var router = express.Router();
+var multer = require('multer');
 
 const Post = require('../models/user.model.js');
 
+// stockage en local de la photo
+const storage = multer.diskStorage({
+  destination: function (req, file, cb) {
+      cb(null, './public/');
+  },
+  filename: function (req, file, cb) {
+      const fileName = file.originalname.toLowerCase();
+      cb(null, fileName)
+  }
+});
+
+/* POST nouvelle photo */
+const createUser = async (req, res) => {
+  const post = new Post({
+    name: req.body.name,
+    picture: url + '/public/' + req.file.filename
+  });
+
+  post.save().then(result => {
+    res.status(201).json({
+        message: "Photo enregistrée avec succès!",
+        userCreated: {
+            _id: result._id,
+            picture: result.picture
+        }
+    })
+    }).catch(err => {
+        console.log(err),
+            res.status(500).json({
+                error: err
+            });
+    })
+}
+router.post('/',upload.single('picture'), createUser);
 
 /* GET toutes les photos */
 const getUsers = async (req, res) => {
@@ -11,20 +46,6 @@ const getUsers = async (req, res) => {
   res.json(list);
 }
 router.get('/', getUsers);
-
-
-/* POST nouvelle photo */
-const createUser = async (req, res) => {
-  const post = new Post({
-    name: req.body.name,
-    picture: req.body.picture
-  });
-
-  const create = await post.save();
-  res.json(create);
-}
-router.post('/', createUser);
-
 
 /* Get une photo par id */
 const researchUser = async (req, res) => {
