@@ -13,7 +13,7 @@ export default function Formulaire() {
                         <h3>Ajouter des photos</h3>
                         <br/>
                         <form action="http://localhost:3001/users/" method="POST" enctype="multipart/form-data">
-                            <input type="text" name="name" required />
+                            <input type="text" placeholder="Nom de la photo" name="name" required />
                             <input type="file" name="fichierPhoto" />
                             <br/><br/>
                             <input type="submit" value="Enregistrer" className="buttonForm" />
@@ -22,7 +22,7 @@ export default function Formulaire() {
                     <div className="col-md-6 carte">
                         <h3>Supprimer des photos</h3>
                         <br/>
-                        <form action="http://localhost:3001/users" method="DELETE">
+                        <form action="http://localhost:3001/users" method="DEL">
                             <input type="text" placeholder="Id photo" name="idSupp" required />
                             <label>selectionner un fichier</label>
                             <br/><br/>
