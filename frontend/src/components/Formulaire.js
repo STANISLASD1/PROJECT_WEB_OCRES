@@ -5,32 +5,37 @@ export default function Formulaire() {
     return (
         <div className="formulaire container">
             <h2>Selectionner la tâche à effectuer :</h2>
-            <div className="button2 justify-content-center">
-                <div>
-                    <button>Ajouter</button>
-                </div>
-                <div>
-                    <button>Supprimer</button>
-                </div>
-            </div>
+            
             <br/>
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="col-md-6 carte">
                         <h3>Ajouter des photos</h3>
                         <br/>
-                        <form action="/upload" method="POST">
-                            <input type="file" />
-                            <input type="submit" value="Enregistrer" />
+                        <form action="http://localhost:3001/users/" method="POST" enctype="multipart/form-data">
+                            <input type="text" name="name" required />
+                            <input type="file" name="fichierPhoto" />
+                            <br/><br/>
+                            <input type="submit" value="Enregistrer" className="buttonForm" />
                         </form>
                     </div>
                     <div className="col-md-6 carte">
                         <h3>Supprimer des photos</h3>
                         <br/>
-                        <form action="/delete" method="POST">
-                            <p>[Tableau photos]</p>
+                        <form action="http://localhost:3001/users" method="DELETE">
+                            <input type="text" placeholder="Id photo" name="idSupp" required />
                             <label>selectionner un fichier</label>
-                            <input type="submit" value="Supprimer" />
+                            <br/><br/>
+                            <input type="submit" value="Supprimer" className="buttonForm"/>
+                        </form>
+                    </div>
+                </div>
+                <div className="row justify-content-center">
+                    <div className="col-md-6 carte">
+                        <h3>Affihcer les photos</h3>
+                        <br/>
+                        <form action="http://localhost:3001/users/" method="GET">
+                            <input type="submit" value="Afficher" className="buttonForm"/>
                         </form>
                     </div>
                 </div>

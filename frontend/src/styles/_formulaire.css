@@ -1,10 +1,4 @@
-.formulaire .button2 {
-    display: flex;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.formulaire button {
+.formulaire .buttonForm {
     display: inline-block;
     background-color: #4db0d4da;
     border-radius: 20px;
@@ -18,13 +12,13 @@
     margin: 5px;
 }
 
-.formulaire button span {
+.formulaire .buttonForm span {
     cursor: pointer;
     display: inline-block;
     position: relative;
     transition: 0.5s;
 }
-.formulaire button span:after {
+.formulaire .buttonForm span:after {
     content: '\00bb';
     position: absolute;
     opacity: 0;
@@ -32,13 +26,13 @@
     right: -20px;
     transition: 0.5s;
 }
-.formulaire button:hover {
+.formulaire .buttonForm:hover {
     background-color: #021c63;
 }
-.formulaire button:hover span {
+.formulaire .buttonForm:hover span {
     padding-right: 25px;
 }
-.formulaire button:hover span:after {
+.formulaire .buttonForm:hover span:after {
     opacity: 1;
     right: 0;
 }
