@@ -5,7 +5,7 @@ var router = express.Router();
 const Post = require('../models/user.model.js');
 
 
-/* GET photos listing. */
+/* GET toutes les photos */
 const getUsers = async (req, res) => {
   const list = await Post.find();
   res.json(list);
@@ -13,7 +13,7 @@ const getUsers = async (req, res) => {
 router.get('/', getUsers);
 
 
-/* POST a new photos */
+/* POST nouvelle photo */
 const createUser = async (req, res) => {
   const post = new Post({
     name: req.body.name,
@@ -26,7 +26,7 @@ const createUser = async (req, res) => {
 router.post('/', createUser);
 
 
-/* RESEARCH a photo by id */
+/* Get une photo par id */
 const researchUser = async (req, res) => {
   const research = await Post.findById(req.params.id);
   res.json(research);
@@ -34,7 +34,7 @@ const researchUser = async (req, res) => {
 router.get('/:id', researchUser);
 
 
-/* DELETE a photos by id */
+/* DELETE photo par id */
 const deleteUser = async (req, res) => {
   const suppr = await Post.remove({_id: req.params.id});
   res.json(suppr);
@@ -42,7 +42,7 @@ const deleteUser = async (req, res) => {
 router.delete('/:id', deleteUser);
 
 
-/* UPDATE a photos by id */
+/* UPDATE name:photos par id */
 const updateUser = async (req, res) => {  
   const update = await Post.updateOne(
     { _id: req.params.id },
