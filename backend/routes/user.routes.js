@@ -9,7 +9,7 @@ const upload = multer();
 
 //upload
 const uploadController = require('../controllers/upload.controller');
-router.post("/upload", upload.single("file"), uploadController.uploadProfil);
+router.post("/upload", upload.single('recfile'), uploadController.uploadProfil);
 
 module.exports = router;
 
